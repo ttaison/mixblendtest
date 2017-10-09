@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+  font-family:"Helvetica Neue", "Yu Gothic", YuGothic, Meiryo, sans-serif;
+width: 100%;
+}
+p{ font-size: 1rem; line-height: 1.8;}
+h1{ font-size: 1.6rem; margin-bottom: 2rem;}
+section{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0;
+  text-align: center;
+}
+header{
+	background: transparent;
+	position: fixed;
+	width: 100%;
+	height: 66px;
+	mix-blend-mode: exclusion;
+}
+.logo{
+	width: 60px;
+	height: 66px;
+	margin: 0 auto;
+	background: url('logo.svg') 0 0;
+	background-size: 100%;
+}
+.first{
+	padding-top: 5rem;
+  background: rgb(148, 187, 44);
+  color: #fff;
+}
+.second{
+	background: url('tiger.jpg') left center;
+	background-size: cover;
+	color: #fff;
+}
+.third{
+  background: rgb(216, 170, 11);
+  color: #fff;
+}
+.fifth{
+	background: #fafafa;
+}
+footer{
+	text-align: center;
+	padding: 1rem 0;
+	background: #000;
+	color: #fff;
+}
